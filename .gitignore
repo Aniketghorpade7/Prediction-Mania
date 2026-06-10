@@ -1,0 +1,33 @@
+# Virtual Environments and Local Systems Runtimes
+.venv/
+venv/
+ENV/
+env/
+ENV_DIR/
+
+# Python caching binaries and tracking symbols
+**/__pycache__/
+**/*.pyc
+**/*.pyo
+**/*.pyd
+.pytest_cache/
+.ipynb_checkpoints/
+
+# IDE Configuration profiles
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Docker development logs
+.dockerignore
+
+# Dataset ignores (Optional - reactivate if you do not want data spreadsheets tracking on GitHub)
+# *.csv
+# *.xlsx
+
+*.tar.gz
+*.tar
+*.tar.gz
+
+release_assests/.
